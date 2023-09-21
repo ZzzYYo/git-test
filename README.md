@@ -1,6 +1,15 @@
 # git-test
 
 
+### git设置代理
+```
+git config [--global] http.proxy http://127.0.0.1:端口号
+git config [--global] https.proxy https://127.0.0.1:端口号
+
+git config [--global] --unset http.proxy
+git config [--global] --unset https.proxy
+```
+
 ### 设置名字和邮箱
 
 ```git
